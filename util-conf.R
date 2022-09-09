@@ -391,7 +391,7 @@ ProjectConf = R6::R6Class("ProjectConf", inherit = Conf,
                 allowed.number = 1
             ),
             issues.only.comments = list(
-                default = TRUE,
+                default = FALSE,
                 type = "logical",
                 allowed = c(TRUE, FALSE),
                 allowed.number = 1
